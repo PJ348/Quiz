@@ -26,7 +26,7 @@ class Book {
 
 class Cart {
     private cartId: string;
-    private items: Book[]; // Relationship แบบ Composition
+    private items: Book[];
 
     constructor(cartId: string) {
         this.cartId = cartId;
